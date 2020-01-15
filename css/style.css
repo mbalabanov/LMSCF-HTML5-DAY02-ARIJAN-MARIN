@@ -1,29 +1,45 @@
 body {
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	background-color:  lightgray;
-}
-
-nav a {
-	color:  blue;
-	text-decoration: none;
-}
-
-table {
-	background-color: lightblue;
-}
-
-table th {
-	color: darkblue;
-}
-
-#logo {
-	width: 100px;
-	float: left;
+	background-color:  gray;
 }
 
 nav {
+	width: 500px;
 	float: left;
 	margin-top: 25px;
+}
+
+nav a {
+	display: inline;
+	padding: 12px;
+	border-radius: 12px;
+	color:  black;
+	text-decoration: none;
+	background-color: lightblue;
+}
+
+.search {
+	margin: 25px;
+	width: 240px;
+	float: left;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1em;
+  background: #ddd;
+  border-bottom: 2px solid white; 
+}
+
+#logo {
+	margin-left: 20px;
+	width: 80px;
+	float: left;
 }
 
 .clear {
@@ -31,9 +47,12 @@ nav {
 }
 
 header {
-	background-color: white;
-	width: 600px;
+	width: 910px;
+	height: 75px;
 	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
 }
 
 main {
@@ -41,15 +60,17 @@ main {
 	float: left;
 	background-color: white;
 	padding: 20px;
-	margin: 4px;
+	margin: 8px 0px 4px 0px;
+	border-radius: 10px;
 }
 
 aside {
-	width: 200px;
-	float: left;
+	width: 220px;
+	float: right;
 	background-color: white;
-	padding: 10px;
-	margin: 4px;
+	padding: 20px;
+	margin: 8px 0px 8px 4px;
+	border-radius: 10px;
 }
 
 .container {
@@ -60,4 +81,5 @@ aside {
 
 .wbg {
 	background-color: white;
+	width: 100%;
 }
