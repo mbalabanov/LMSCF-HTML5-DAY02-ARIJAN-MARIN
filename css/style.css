@@ -1,32 +1,43 @@
 body {
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	background-color:  lightgray;
+	background-color:  gray;
+}
+
+nav {
+	width: 500px;
+	float: left;
+	margin-top: 25px;
 }
 
 nav a {
 	display: inline;
-	padding: 8px;
-	color:  blue;
-	text-decoration: none;
-	background-color: lightblue;
+	padding: 12px;
+	border-radius: 12px;
+	color:  black;
+}
+
+.search {
+	margin: 25px;
+	width: 240px;
+	float: left;
 }
 
 table {
-	background-color: lightblue;
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
 }
 
-table th {
-	color: darkblue;
+th, td {
+  padding: 1em;
+  background: #ddd;
+  border-bottom: 2px solid white; 
 }
 
 #logo {
-	width: 100px;
+	margin-left: 20px;
+	width: 80px;
 	float: left;
-}
-
-nav {
-	float: left;
-	margin-top: 25px;
 }
 
 .clear {
@@ -34,9 +45,12 @@ nav {
 }
 
 header {
-	background-color: white;
-	width: 600px;
+	width: 910px;
+	height: 75px;
 	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
 }
 
 main {
@@ -44,15 +58,17 @@ main {
 	float: left;
 	background-color: white;
 	padding: 20px;
-	margin: 4px;
+	margin: 8px 0px 4px 0px;
+	border-radius: 10px;
 }
 
 aside {
-	width: 200px;
-	float: left;
+	width: 220px;
+	float: right;
 	background-color: white;
-	padding: 10px;
-	margin: 4px;
+	padding: 20px;
+	margin: 8px 0px 8px 4px;
+	border-radius: 10px;
 }
 
 .container {
@@ -63,4 +79,5 @@ aside {
 
 .wbg {
 	background-color: white;
+	width: 100%;
 }
