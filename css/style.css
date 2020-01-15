@@ -4,8 +4,11 @@ body {
 }
 
 nav a {
+	display: inline;
+	padding: 8px;
 	color:  blue;
 	text-decoration: none;
+	background-color: lightblue;
 }
 
 table {
