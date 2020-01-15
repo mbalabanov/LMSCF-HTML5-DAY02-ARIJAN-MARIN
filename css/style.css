@@ -1,0 +1,63 @@
+body {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	background-color:  lightgray;
+}
+
+nav a {
+	color:  blue;
+	text-decoration: none;
+}
+
+table {
+	background-color: lightblue;
+}
+
+table th {
+	color: darkblue;
+}
+
+#logo {
+	width: 100px;
+	float: left;
+}
+
+nav {
+	float: left;
+	margin-top: 25px;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	background-color: white;
+	width: 600px;
+	margin: 0 auto;
+}
+
+main {
+	width: 640px;
+	float: left;
+	background-color: white;
+	padding: 20px;
+	margin: 4px;
+}
+
+aside {
+	width: 200px;
+	float: left;
+	background-color: white;
+	padding: 10px;
+	margin: 4px;
+}
+
+.container {
+	background-color: white;
+	width: 950px;
+	margin: 0 auto;
+}
+
+.wbg {
+	background-color: white;
+}
